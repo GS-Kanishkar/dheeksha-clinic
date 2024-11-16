@@ -2,22 +2,19 @@ import React, { useRef } from "react";
 import "./Galleries.css";
 
 import image1 from "../images/gfc.jpg";
-import image2 from "../images/enterence.png";
+import image2 from "../images/face-img.jpg";
+import image3 from "../images/eye-img.jpg";
+import image4 from "../images/gallery4.jpg";
 
 const imageData = [
   { src: image1, alt: "GFC Treatment", description: "GFC Treatment" },
-  { src: image2, alt: "PRP Treatment", description: "PRP Treatment" },
-  { src: image1, alt: "Laser Treatment", description: "Laser Treatment" },
-  { src: image2, alt: "GFC Treatment", description: "GFC Treatment" },
-  { src: image1, alt: "PRP Treatment", description: "PRP Treatment" },
-  { src: image2, alt: "Laser Treatment", description: "Laser Treatment" },
+  { src: image2, alt: "Laser Treatment", description: "PRP Treatment" },
+  { src: image3, alt: "scar Treatment", description: "Laser Treatment" },
+  { src: image4, alt: "scar Treatment", description: "GFC Treatment" },
   { src: image1, alt: "GFC Treatment", description: "GFC Treatment" },
-  { src: image2, alt: "PRP Treatment", description: "PRP Treatment" },
-  { src: image1, alt: "GFC Treatment", description: "GFC Treatment" },
-  { src: image2, alt: "PRP Treatment", description: "PRP Treatment" },
-  { src: image1, alt: "Laser Treatment", description: "Laser Treatment" },
-  { src: image2, alt: "GFC Treatment", description: "GFC Treatment" },
-  { src: image1, alt: "PRP Treatment", description: "PRP Treatment" },
+  { src: image2, alt: "Laser Treatment", description: "PRP Treatment" },
+  { src: image3, alt: "scar Treatment", description: "Laser Treatment" },
+  { src: image4, alt: "scar Treatment", description: "GFC Treatment" },
 ];
 
 export default function Galleries() {

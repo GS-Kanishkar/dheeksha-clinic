@@ -7,7 +7,9 @@ export default class DoctorProfile extends React.Component {
   render() {
     return (
       <div className="container single-profile-container">
+        
         <div className="profile-card">
+        <h4 className="section-title">Meet Our Doctor !</h4>
           <img
             src={doctorImage}
             alt="Doctor Profile"

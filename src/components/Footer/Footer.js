@@ -1,110 +1,89 @@
 import "./footer.css";
-
 import { BsYoutube, BsInstagram, BsFacebook } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
+import logo from "../NavBar/logo.png";
+
 export default function Footer() {
   return (
-    <>
-      <div style={{ backgroundColor: "#1a1a1a" }}>
-        <div className="container">
-          <div className="row">
-            <div className="col d-flex justify-content-center">
-              <img
-                src="/jcllogolarge1.png"
-                style={{
-                  height: "180px",
-                  width: "180px",
-                  objectFit: "contain",
-                }}
-                alt="logo"
-              />
-            </div>
-            <div className="footerText">
-              {" "}
-              <a
-                style={{ textDecoration: "none", color: "white" }}
-                href="https://www.google.com/maps/place/Jayam+Color+Lab+%26+Studio,+Trichy/@10.8321029,78.6905853,17z/data=!3m1!4b1!4m5!3m4!1s0x3baaf5b0ef29ea07:0xd1ce3b55aadd7a6d!8m2!3d10.8321029!4d78.692774"
-                target={"_blank"}
-              >
-                {" "}
-                273, Periyar Nagar, Pudukkottai, Kavinad West, Tamil Nadu 622001 |
+    <footer className="modern-footer">
+      <div className="footer-container">
+        {/* Top Section with Logo and Address */}
+        <div className="footer-top">
+          <div className="footer-logo-section">
+            <img src={logo} alt="Logo" className="footer-logo" />
+            <p className="footer-tagline">
+              Empowering health with care and innovation.
+            </p>
+          </div>
+          <div className="footer-address">
+            <p>273, Periyar Nagar, Pudukkottai, Kavinad West, Tamil Nadu 622001</p>
+            <p>
+              <a href="tel:+918489520520" className="footer-contact">
+                +91 084895 20520
+              </a>{" "}
+              |{" "}
+              <a href="tel:04312706519" className="footer-contact">
+                0431 2706519
               </a>
-              <a
-                style={{ textDecoration: "none", color: "white" }}
-                href="tel:+91 08489520520"
-              >
-                {"  "} +91 084895 20520 |{" "}
-              </a>
-              <a
-                style={{ textDecoration: "none", color: "white" }}
-                href="tel:04312706519"
-              >
-                0431 2706519{" "}
-              </a>
-            </div>
-            <span className="mb-2 mt-2 d-flex justify-content-center">
-              <a
-                className="iconHov"
-                href="https://www.facebook.com/jayamcolorlab"
-                target={"_blank"}
-              >
-                <BsFacebook
-                  style={{
-                    fontSize: "35px",
-                    color: "white",
-                    marginRight: "16px",
-                  }}
-                />
-              </a>
-              <a
-                className="iconHov"
-                href="https://www.youtube.com/jayamcolorlab"
-                target={"_blank"}
-              >
-                <BsYoutube
-                  style={{
-                    fontSize: "35px",
-                    color: "white",
-                    marginRight: "16px",
-                  }}
-                />
-              </a>
-              <a
-                className="iconHov"
-                href="https://www.instagram.com/jayamcolorlab"
-                target={"_blank"}
-              >
-                <BsInstagram
-                  style={{
-                    fontSize: "35px",
-                    color: "white",
-                    marginRight: "16px",
-                  }}
-                />
-              </a>
-
-              <a
-                className="iconHov"
-                href="mailto:studiojayam@gmail.com;jayamcolorlab@gmail.com"
-                target={"_blank"}
-              >
-                <SiGmail
-                  style={{
-                    fontSize: "35px",
-                    color: "white",
-                    marginRight: "16px",
-                  }}
-                />
-              </a>
-            </span>
-            <div className="footerText mt-2 ">
-              {" "}
-              copyright &#169; {new Date().getFullYear()} Jayam Color Lab | With
-              ❤️ Designed by Jayam Color Lab
-            </div>{" "}
+            </p>
+            <a
+              href="https://www.google.com/maps/place/Jayam+Color+Lab+%26+Studio,+Trichy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-map-link"
+            >
+              View on Google Maps
+            </a>
           </div>
         </div>
+
+        {/* Divider */}
+        <div className="footer-divider"></div>
+
+        {/* Social Media Section */}
+        <div className="footer-social">
+          <p>Connect with us</p>
+          <div className="social-icons">
+            <a
+              href="https://www.facebook.com/jayamcolorlab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+            >
+              <BsFacebook />
+            </a>
+            <a
+              href="https://www.youtube.com/jayamcolorlab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+            >
+              <BsYoutube />
+            </a>
+            <a
+              href="https://www.instagram.com/jayamcolorlab"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+            >
+              <BsInstagram />
+            </a>
+            <a
+              href="mailto:dheekshaclinic@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-icon"
+            >
+              <SiGmail />
+            </a>
+          </div>
+        </div>
+
+        {/* Bottom Section */}
+        <div className="footer-bottom">
+          <p>&copy; {new Date().getFullYear()} Dheeksha Clinic. All Rights Reserved.</p>
+        </div>
       </div>
-    </>
+    </footer>
   );
 }

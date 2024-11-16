@@ -14,9 +14,8 @@
 
 .homeImg {
   background: url("./th.jpg") center fixed; 
-}
-.countImg {
-  background: url("./count.jpg") center fixed;
+  background-repeat: no-repeat;  /* Prevents the image from repeating */
+  background-size: cover;
 }
 
 .iconColor {

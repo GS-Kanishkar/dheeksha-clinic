@@ -5,7 +5,8 @@ import Services from "../Services/Services";
 import FadeInSection from "../../FadeInSection";
 import ClinicBenefits from "../ClinicBenefits/ClinicBenefits";
 import Galleries from "../../galleries/Galleries";
-import DoctorProfile from "../DoctorProfile/DoctorProfile";
+import DoctorProfile from "../DoctorProfile/DoctorProfile";  
+import { Element } from "react-scroll";
 
 export default function Home() {
   useEffect(() => {
@@ -16,25 +17,34 @@ export default function Home() {
     <React.Fragment>
       <Slider />
       <div style={{ height: "91.8vh" }}></div>
+      <Element name="services" >
       <FadeInSection>
         <Services home={"false"} />
-      </FadeInSection>
+      </FadeInSection> 
+      </Element>
 
+      <Element name="doctorprofile" >
       <FadeInSection>
         <DoctorProfile />
       </FadeInSection>
+      </Element>
 
+      <Element name="Galleries" >
+        <FadeInSection>
+          <Galleries />
+        </FadeInSection>
+        </Element>
+
+      <Element name="ClinicBenefits" >
       <div className="homeImg">
         <FadeInSection>
           <ClinicBenefits />
         </FadeInSection>
       </div>
+      </Element>
 
-      <div className="homeImg"> 
-        <FadeInSection>
-          <Galleries />
-        </FadeInSection>
-      </div>
+   
+     
     </React.Fragment>
   );
 }

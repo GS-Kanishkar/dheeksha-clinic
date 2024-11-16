@@ -34,7 +34,7 @@ html, body {
 /* To ensure the content fits within the screen */
 .container {
   width: 100%;
-  max-width: 900px; /* Ensure it doesn't stretch too wide */
+  max-width: 1200px; /* Ensure it doesn't stretch too wide */
   margin: 0 auto;    /* Center it */
-  padding: 0 20px;   /* Add some padding for comfort */
+  padding: 0 10px;   /* Add some padding for comfort */
 }

@@ -1,7 +1,12 @@
 import React from "react";
 import "./services.css";
 
-import skin1 from "../checking/giphy.webp"
+import skin1 from "../../images/skin-care.jpg"
+import gfcimg from "../../images/gfc-img.jpg"
+import skin2 from "../../images/laser-img.jpg"
+import skin4 from "../../images/dotor-patient.jpg"
+
+
 
 export default class Services extends React.Component {
   render() {
@@ -9,8 +14,10 @@ export default class Services extends React.Component {
       <>
         <React.Fragment>
           <div className="container contain ">
-            {" "}
-            <h4 className="welcometext">Our Services !</h4>
+            {" "} 
+            <div style={{ textAlign: "center" }}>
+              <h4 className="section-title">Our Services !</h4>
+            </div>
             <div className="col-12">
               <div className="row">
                 <div className="col-lg-3 mb-3 d-flex ">
@@ -37,7 +44,7 @@ export default class Services extends React.Component {
                 <div className="col-lg-3 mb-3 d-flex ">
                   <div className=" card homeBox bord">
                   <img
-                      src={skin1}
+                      src={gfcimg}
                       alt="Camera Service GIF"
                       className="card-img-top"
                       style={{
@@ -59,7 +66,7 @@ export default class Services extends React.Component {
                 <div className="col-lg-3 mb-3 d-flex ">
                   <div className="card bord homeBox">
                   <img
-                      src={skin1}
+                      src={skin2}
                       alt="Camera Service GIF"
                       className="card-img-top"
                       style={{
@@ -88,7 +95,7 @@ export default class Services extends React.Component {
                 <div className="col-lg-3 mb-3 d-flex ">
                   <div className="card bord homeBox">
                   <img
-                      src={skin1}
+                      src={skin4}
                       alt="Camera Service GIF"
                       className="card-img-top"
                       style={{

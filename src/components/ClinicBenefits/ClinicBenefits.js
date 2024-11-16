@@ -4,7 +4,9 @@ import doctorImage from "./skin-care.png";
 
 export default function ClinicBenefits() {
   return (
+    
     <div className="clinic-benefits-container">
+      
       <div className="benefits-card">
         <h2 className="section-title">Why Dheeksha Clinic is the Right Choice for You</h2>
         <p className="clinic-description">
@@ -53,6 +55,7 @@ export default function ClinicBenefits() {
           Book Now!
         </a>
       </div>
+    
     </div>
   );
 }

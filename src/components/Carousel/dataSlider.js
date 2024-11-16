@@ -4,23 +4,27 @@ import check2 from "../checking/check2.jpg";
 import check3 from "../checking/check3.jpg";
 import check4 from "../checking/check4.jpg";
 import check5 from "../checking/check5.jpg";
+import slider1 from "../../images/enterence.png"
+import slider2 from "../../images/slider2.jpg"
+import slider3 from "../../images/slider4.jpg"
+import slider4 from "../../images/slider3.jpg"
 
 const dataSlider = [
   {
     id: 1,
-    url: check1,
+    url: slider1,
   },
   {
     id: 2,
-    url: check2,
+    url: slider2,
   },
   {
     id: 3,
-    url: check3,
+    url: slider3,
   },
   {
     id: 4,
-    url: check4,
+    url: slider4,
   },
   {
     id: 5,

@@ -1,26 +1,111 @@
-.footerText {
+/* Footer Container */
+
+.modern-footer {
+  background: linear-gradient(to bottom, #1f1f1f, #0d0d0d);
   color: white;
-  cursor: pointer;
-  font-size: 14px;
-
+  padding:  40px 20px 0 20px;
   font-family: "Josefin Sans", sans-serif;
+  border-radius: 15px; /* Rounded edges */
+  /* Add some spacing around the footer */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+  overflow: hidden; /* Ensures child elements respect the rounded corners */
+}
 
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Section */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo-section {
+  text-align: center;
+  flex: 1;
+}
+
+.footer-logo {
+  height: 120px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.footer-tagline {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.footer-address {
+  flex: 1;
+  font-size: 14px;
   text-align: center;
 }
 
-.iconHov{
-  /* transition: transform 0.3s ease; */
+.footer-contact {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
-.iconHov:hover {
-  filter: brightness(70%);
-  transform: scale(1.04);
-}
-.hrFooter {
-  color: wheat;
-  height: 42px;
 
-  margin-left: 10px;
+.footer-contact:hover {
+  text-decoration: underline;
 }
-.d {
-  font-family: "Josefin Sans", sans-serif;
+
+.footer-map-link {
+  color: #f39c12;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-map-link:hover {
+  text-decoration: underline;
+}
+
+/* Divider */
+.footer-divider {
+  height: 1px;
+  background: rgb(151, 143, 143);
+  margin: 20px 0;
+}
+
+/* Social Media Section */
+.footer-social {
+  text-align: center;
+}
+
+.footer-social p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 25px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #f39c12;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  color: #b3b3b3;
+  margin-top: 20px;
 }
