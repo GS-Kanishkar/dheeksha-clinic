@@ -78,15 +78,8 @@ export default class Services extends React.Component {
                     <h6 className="underlinetext"> Laser Treatments  </h6>
                     <div className="card-body d-flex flex-column">
                       <p className="card-text mb-4">
-                        There is no limit to the effects that can be brought
-                        about in a simple photograph. You can make any event
-                        look and feel more vibrant, fun and appealing with photo
-                        editing. We edit those captures beautifully, and present
-                        you the final Album which will be with you forever.{" "}
+                      At Dheeksha Clinic, we offer advanced laser treatments for smoother, clearer, and rejuvenated skin. From acne scar reduction to pigmentation correction and hair removal, our lasers provide safe, effective solutions. Tailored to your skin type, our treatments deliver long-lasting results with minimal downtime. Experience the benefits of precision and care with our expert laser services. Book your appointment today for glowing skin!
                         <br />
-                        <br /> Also, we fix the damaged old photos and bring
-                        color to b/w photographs, flex editing, collage, VHS to DVD/Pendrive and
-                        etc., at affordable cost in our studio.
                       </p>
                     </div>
                   </div>
@@ -109,15 +102,7 @@ export default class Services extends React.Component {
 
                     <div className="card-body d-flex flex-column">
                       <p className="card-text mb-4">
-                        Framing some important memories in wall makes that
-                        moment more memorable. We have a wide variety of gift
-                        items that you can choose as a present for your loved
-                        ones at affordable price.
-                        <br />
-                        <br />
-                        Our services are extended all around the India and just
-                        Whatsapp or email us, we will deliver the frame and gift
-                        items at your doorstep.
+                      At Dheeksha Clinic, we offer a range of skincare treatments to address various concerns like acne, pigmentation, and aging. Our treatments are designed to improve skin texture, reduce blemishes, and restore a youthful glow. Using advanced methods, we provide safe and effective solutions tailored to your skin’s unique needs. Whether it’s deep hydration or anti-aging, our personalized care ensures visible, lasting results. Book your appointment today for healthier, radiant skin!
                       </p>
                     </div>
                   </div>

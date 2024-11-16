@@ -1,7 +1,7 @@
 // DoctorProfile.jsx
 import React from "react";
 import "./DoctorProfile.css";
-import doctorImage from "./DoctorImage.jpg"; // Replace with the actual image path of Dr. Karunya
+import doctorImage from "../../images/laser-img.jpg"; // Replace with the actual image path of Dr. Karunya
 
 export default class DoctorProfile extends React.Component {
   render() {
