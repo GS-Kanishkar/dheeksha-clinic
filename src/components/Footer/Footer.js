@@ -18,16 +18,16 @@ export default function Footer() {
           <div className="footer-address">
             <p>273, Periyar Nagar, Pudukkottai, Kavinad West, Tamil Nadu 622001</p>
             <p>
-              <a href="tel:+918489520520" className="footer-contact">
-                +91 084895 20520
+              <a href="tel:+911234567898" className="footer-contact">
+                +91 12345 12345
               </a>{" "}
               |{" "}
-              <a href="tel:04312706519" className="footer-contact">
-                0431 2706519
+              <a href="tel:000000" className="footer-contact">
+                04322 12345
               </a>
             </p>
             <a
-              href="https://www.google.com/maps/place/Jayam+Color+Lab+%26+Studio,+Trichy/"
+              href="https://www.google.com/maps/"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-map-link"
@@ -45,7 +45,7 @@ export default function Footer() {
           <p>Connect with us</p>
           <div className="social-icons">
             <a
-              href="https://www.facebook.com/jayamcolorlab"
+              href="https://www.facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
@@ -53,7 +53,7 @@ export default function Footer() {
               <BsFacebook />
             </a>
             <a
-              href="https://www.youtube.com/jayamcolorlab"
+              href="https://www.youtube.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
@@ -61,7 +61,7 @@ export default function Footer() {
               <BsYoutube />
             </a>
             <a
-              href="https://www.instagram.com/jayamcolorlab"
+              href="https://www.instagram.com/kanish__gs"
               target="_blank"
               rel="noopener noreferrer"
               className="social-icon"
