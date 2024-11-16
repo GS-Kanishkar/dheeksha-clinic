@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;1,900&family=Lobster&family=Oswald:wght@500&display=swap");
+
+.single-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: #f5f4f4;
+  border-radius: 10px;
+}
+
+.profile-card {
+  text-align: center;
+  max-width: 500px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.profile-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 4px solid #4d8ef0;
+}
+
+.doctor-name {
+  font-family: "Oswald", sans-serif;
+  color: #2b394a;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.doctor-specialization {
+  font-family: "Manrope", sans-serif;
+  color: #ff6a00;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.doctor-description {
+  font-family: "Josefin Sans", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}

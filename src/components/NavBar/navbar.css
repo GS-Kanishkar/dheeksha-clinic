@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+.navbar.colorChange {
+  background-color: #16181c;
+  border-bottom: 1px solid #ff7000;
+  transition: ease-in 0.2s;
+  opacity: 0.9;
+}
+
+.transition {
+  transition: ease-out 0.3s;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.nav-link {
+  padding-right: 5rem;
+  font-size: large;
+}
+.logo {
+  position: absolute;
+  top: 2%;
+
+  cursor: pointer;
+}
+
+.nav-item {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-family: "Manrope", sans-serif;
+  cursor: pointer;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hover-underline-animation {
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  transform: scaleX(0);
+  height: 6%;
+  bottom: 0;
+  left: 0;
+
+  background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee0979,
+    #ff6a00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  transform-origin: top;
+  transition: transform 0.25s ease-out;
+  -webkit-backface-visibility: hidden;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: top;
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation1:after {
+  transform: scaleX(1);
+  transform-origin: top;
+  transform-origin: bottom left;
+}
+
+.new:before {
+  content: "";
+  position: absolute;
+
+  background: #ee0979;
+  background: -webkit-linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+
+  width: 100%;
+  height: 20px;
+  left: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  z-index: -1;
+}
+.new:hover::before,
+.new:focus::before {
+  animation: 0.3s forwards ani2 linear;
+}
+
+.new1:after {
+  content: "";
+  position: absolute;
+
+  background: #ee0979; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee0979,
+    #ff6a00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+
+  width: 100%;
+  height: 90%;
+
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@keyframes ani2 {
+  0% {
+    transform: scaleX(0);
+    height: 6px;
+  }
+  45% {
+    transform: scaleX(1);
+    height: 10px;
+  }
+  55% {
+    height: 20px;
+  }
+  100% {
+    transform: scaleX(1);
+
+    height: 40px;
+  }
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  margin-top: 1px;
+  background-color: #16181c;
+  opacity: 0.9;
+  border: 1px solid white;
+}
+#dropdownMenuButton[disabled] {
+  pointer-events: all;
+}
+
+.dropdown-menu {
+  display: block;
+  margin-top: 1px !important;
+  background-color: #16181c !important;
+  opacity: 0.9;
+  border: 1px solid white !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: #ee0979;
+  background: -webkit-linear-gradient(to right, #ee0979, #ff6a00);
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  font-weight: 800;
+}
+.dropdown-item {
+  color: white !important;
+  margin-top: 1px;
+
+  color: white;
+}
+select:active,
+select:hover {
+  outline: none;
+}

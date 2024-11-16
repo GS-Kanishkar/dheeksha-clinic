@@ -1,0 +1,26 @@
+.footerText {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+
+  font-family: "Josefin Sans", sans-serif;
+
+  text-align: center;
+}
+
+.iconHov{
+  /* transition: transform 0.3s ease; */
+}
+.iconHov:hover {
+  filter: brightness(70%);
+  transform: scale(1.04);
+}
+.hrFooter {
+  color: wheat;
+  height: 42px;
+
+  margin-left: 10px;
+}
+.d {
+  font-family: "Josefin Sans", sans-serif;
+}
