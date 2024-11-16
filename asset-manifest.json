@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/GS-Kanishkar/dheeksha-clinic/static/css/main.348185da.css",
+    "main.js": "/GS-Kanishkar/dheeksha-clinic/static/js/main.d504acc0.js",
+    "static/media/slider3.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/slider3.c48ac51a1ea482a7d718.jpg",
+    "static/media/dotor-patient.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/dotor-patient.f5322153ecc1d09d929c.jpg",
+    "static/media/check1.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/check1.de153d983defa1a9a9e0.jpg",
+    "static/media/enterence.png": "/GS-Kanishkar/dheeksha-clinic/static/media/enterence.de153d983defa1a9a9e0.png",
+    "static/media/th.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/th.de153d983defa1a9a9e0.jpg",
+    "static/media/face-img.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/face-img.d53a50bb3a0b6832aa91.jpg",
+    "static/media/gallery4.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/gallery4.92b78fd8ea6cdf15b743.jpg",
+    "static/media/gfc.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/gfc.a546b8968146bd038826.jpg",
+    "static/media/eye-img.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/eye-img.e4566ed8f9c19821cc48.jpg",
+    "static/media/laser-img.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/laser-img.d3c2ce389c306fccb93f.jpg",
+    "static/media/skin-care.png": "/GS-Kanishkar/dheeksha-clinic/static/media/skin-care.59b5e7235f37e61be28d.png",
+    "static/media/skin-care.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/skin-care.63a67214ed6bb65ca264.jpg",
+    "static/media/slider2.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/slider2.d088d0a043e92b0855ee.jpg",
+    "static/media/slider4.jpg": "/GS-Kanishkar/dheeksha-clinic/static/media/slider4.04ab426d3c6aa4d6c583.jpg",
+    "index.html": "/GS-Kanishkar/dheeksha-clinic/index.html",
+    "main.348185da.css.map": "/GS-Kanishkar/dheeksha-clinic/static/css/main.348185da.css.map",
+    "main.d504acc0.js.map": "/GS-Kanishkar/dheeksha-clinic/static/js/main.d504acc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.348185da.css",
+    "static/js/main.d504acc0.js"
+  ]
+}
