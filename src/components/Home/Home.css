@@ -12,7 +12,7 @@
   visibility: visible;
 }
 
-.homeImg {
+.homeImgz {
   background: url("./th.jpg") center fixed; 
   background-repeat: no-repeat;  /* Prevents the image from repeating */
   background-size: cover;

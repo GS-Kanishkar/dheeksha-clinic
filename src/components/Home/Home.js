@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Slider />
-      <div style={{ height: "91.8vh" }}></div>
+      <div style={{ height: "45.8vh" }}></div>
       <Element name="services" >
       <FadeInSection>
         <Services home={"false"} />
@@ -36,11 +36,10 @@ export default function Home() {
         </Element>
 
       <Element name="ClinicBenefits" >
-      <div className="homeImg">
+      
         <FadeInSection>
           <ClinicBenefits />
         </FadeInSection>
-      </div>
       </Element>
 
    
