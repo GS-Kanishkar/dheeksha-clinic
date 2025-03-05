@@ -48,7 +48,7 @@ export default function ClinicBenefits() {
           Experience the difference that individualized care can make. Book your appointment at Dheeksha Clinic today and take the first step toward achieving healthier, beautiful skin and hair!
         </p>
         <a
-          href="https://api.whatsapp.com/send?phone=919486491801&text=Hi, I would like to book an appointment with Dheeksha Clinic!"
+          href="https://api.whatsapp.com/send?phone=919080024196&text=Hi, I would like to book an appointment with Dheeksha Clinic!"
           target="_blank"
           className="btn btn-warning"
         >
